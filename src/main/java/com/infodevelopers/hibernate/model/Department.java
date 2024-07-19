@@ -12,7 +12,7 @@ public class Department {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    @Column(name = "name" , length = 100)
+
     private String name;
     @Column(name = "short_code", length = 10)
     private String shortname;
